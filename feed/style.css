@@ -70,8 +70,10 @@ a{
 /*Parte dos produtos*/
 main{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     justify-content: center;
+    margin: auto;    
+    margin-bottom: ;
 }
 .mostra{
     margin: 30px;
@@ -79,7 +81,7 @@ main{
     padding: 10px;
     border-radius: 10px;
     overflow-wrap:break-word ;
-    width: 200px;
+    width: 250px;
     
 }
 .texto{
