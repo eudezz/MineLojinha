@@ -17,18 +17,19 @@
         </p>
         <p>
             <label for="email">
-                E-mail: <input type="email" name="" id="email" class="inputo" placeholder=" EudesSampaio@gmail.com">
+                E-mail: <input type="email" name="" id="email" class="inputo" placeholder=" EudesSampaio@gmail.com" minlength="8" maxlength="20" aria-required="true">
             </label>
         </p>
 
         <p>
             <label for="senha">
-                Senha: <input type="password" name="" id="senha" class="inputo" placeholder="******************">
+                Senha: <input type="password" name="" id="senha" class="inputo" placeholder="******************" max="8" required>
             </label>
         </p>
-        <input type="button" value="Enviar" class="inputo" id="bota">    
+        <input type="button" value="Logar" class="inputo" id="bota" onclick="logar()">    
     </form>
     </main>
-    
+   <script src="login.js"></script>
 </body>
+
 </html>

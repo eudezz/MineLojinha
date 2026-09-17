@@ -69,12 +69,6 @@ a{
 .mostra{
     margin: 20px;
     background-color:#FF7F50;
-    padding: 10px;
-    border-radius: 10px;
-    overflow-wrap:break-word ;
-}
-.texto{
-    
 }
 
 .foto{
@@ -91,5 +85,6 @@ a{
     width: 200px;
     height: 200px;
     text-align: center;
+    
     
 }
