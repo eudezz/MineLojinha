@@ -19,6 +19,8 @@ header{
     background-color:#946D6D ;
     flex-flow: row nowrap;
     justify-content: center;
+    position:sticky;
+    top: 0;
 }
 
 h1{
@@ -64,32 +66,27 @@ a{
     border-radius: 20px;
 }
 
-/*Perde dos produtos*/
-
+/*Parte dos produtos*/
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
 .mostra{
     margin: 20px;
     background-color:#FF7F50;
     padding: 10px;
     border-radius: 10px;
     overflow-wrap:break-word ;
+    width: 200px;
+    
 }
 .texto{
     
 }
 
 .foto{
-    width: 300px;
+    width: 200px;
     border-radius:20px;
     padding: 5px;
 }
 
-/*paginaPerfil*/
-
-.botaAdd{
-    background-color: #1b536e;
-    border: 1px solid black;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    
-}
